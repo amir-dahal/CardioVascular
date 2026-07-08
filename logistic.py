@@ -2,8 +2,8 @@ import streamlit as st
 import requests
 
 
-feature, target, scaler, model, Y_pred, cr, cm = cardioPredict()
-API_URL = 'http://127.0.0.1:8000/predict-cardio'
+# feature, target, scaler, model, Y_pred, cr, cm = cardioPredict()
+API_URL = 'https://cardiovascular-1.onrender.com/predict-cardio'
 
 
 st.header('Logistic')
